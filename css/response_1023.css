@@ -1632,29 +1632,7 @@
         display: none;
     }
 
-    .products_category .flex.mob_slider {
-        display: block;
-        overflow: auto;
-        margin-right: -30px;
-        margin-bottom: 0;
-        margin-left: -30px;
-        padding: 0 30px;
-        white-space: nowrap;
-        padding-bottom: 50px;
-    }
-
-    .products_category .flex.mob_slider > * {
-        display: inline-block;
-        width: 270px;
-        margin-bottom: 0;
-        margin-left: 0;
-        vertical-align: top;
-        white-space: normal;
-    }
-
-    .products_category .flex.mob_slider > * + * {
-        margin-left: 16px;
-    }
+  
 
 
     .products_category .img img{
@@ -1700,5 +1678,8 @@
 
     header .menu .item a.touch_link + .sub_menu.show .sub_menu a{
         padding-left:50px;
+    }
+    header{
+        background: var(--main_color1);
     }
 }
