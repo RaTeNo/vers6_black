@@ -5677,7 +5677,7 @@ button:disabled {
     font-weight: bold;
     font-size: 18px;
     line-height: 31px;
-    color: #0B162B;
+    color: #fff;
     opacity: 0.53;
 }
 
@@ -6618,14 +6618,14 @@ button:disabled {
 }
 
 .quiz_poll .step .title {
-    color: #282828;
+    color: #fff;
     font-size: 22px;
     font-weight: 500;
     line-height: 36px;
 }
 
 .quiz_poll .step .desc {
-    color: #0b162b;
+    color: #fff;
     line-height: 22px;
 
     margin-top: 15px;
@@ -8126,4 +8126,8 @@ header .flexMenu-popup .item .item .sub_menu {
 
 header .flexMenu-popup .item .item:hover .sub_menu {
     left: auto;
+}
+
+.fancybox-button svg path{
+    fill:#000;
 }
