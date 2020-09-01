@@ -360,10 +360,7 @@
         height: 100vh;
         padding: 30px;
 
-        pointer-events: none;
-
-        column-gap: 30px;
-        column-count: 2;
+        pointer-events: auto;
     }
 
     aside .filter > *
@@ -534,8 +531,7 @@
 
     .cart_info .cart_total .val
     {
-        font-size: 30px;
-        line-height: 38px;
+
     }
 
 
@@ -1681,5 +1677,13 @@
     }
     header{
         background: var(--main_color1);
+    }
+
+    .block_checkform{
+        flex-wrap: wrap;
+    }
+
+    .tab_filter_title{
+        color:#fff;
     }
 }

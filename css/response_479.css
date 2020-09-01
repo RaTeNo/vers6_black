@@ -271,7 +271,7 @@
     {
         text-align: center;
 
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .cart_info .cart_total .checkout_link
@@ -967,5 +967,30 @@
 
      .products_category .flex>*{
         width: calc(100%);
+    }
+     .promocode_form{
+        flex-wrap: wrap;
+    }
+    .promocode_form button{
+        margin-top:10px;
+        margin-left:0;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    .char div span:first-child{
+        display: block;
+        float:none;
+    }
+    .char div span+span{
+        display: inline-block;
+         float:none;
+         margin-left:0px;
+         margin-top:15px;
+    }
+
+    a.back_cat{
+         margin-top: 0px;
+         font-size: 16px;
     }
 }
