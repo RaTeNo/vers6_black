@@ -8560,3 +8560,39 @@ a.back_cat{
 .text_block table{
     border-collapse: collapse;
 }
+
+
+.tab_filter_title span{
+    width: calc(100% - 37px);
+}
+
+aside .cats .tab_filter_title label:before{
+    top: 1px;
+}
+
+
+aside .cats .tab_filter_title label:after{
+    top: 4px;
+}
+
+aside .block .data_new{
+    padding-left:44px;
+}
+
+aside .cats label{
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+aside .cats label:before{
+    top:1px;
+}
+
+aside .cats label:after{
+    top:4px;
+}
+
+.tab_filter_title.active i{
+    height:20px;
+}

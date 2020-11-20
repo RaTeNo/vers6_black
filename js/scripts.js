@@ -659,20 +659,31 @@ $(function(){
 	    buildContactButton(config);
 	}
 
-	$('.tab_filter_title').click(function(e){
+
+	$('.tab_filter_title span, .tab_filter_title i').click(function(e){
 		e.preventDefault()	
-		if($(this).hasClass("active"))
+		if($(this).parent().hasClass("active"))
 		{
-			$(this).removeClass("active");
-			$(this).next().slideUp();
+			$(this).parent().removeClass("active");
+			$(this).parent().next().slideUp();
 		}	
 		else
 		{
-			$(this).addClass("active");
-			$(this).next().slideDown();
+			$(this).parent().addClass("active");
+			$(this).parent().next().slideDown();
 		}
 
 	})
+
+	$(".parent_cat").on('change', function() {
+		if($(this).attr("checked")){
+			$(this).parent().next().find("input").prop('checked', true);
+		}
+		else
+		{
+			$(this).parent().next().find("input").prop('checked', false);
+		}
+	});
 
 
 
